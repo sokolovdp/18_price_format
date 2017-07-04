@@ -1,5 +1,6 @@
 import sys
 
+
 def format_price(price: "str") -> "str":
     try:
         price_float = float(price.strip())
@@ -11,5 +12,3 @@ def format_price(price: "str") -> "str":
 
 if __name__ == '__main__':
     print("{} converted to {}".format(sys.argv[1], format_price(sys.argv[1])))
-
-
