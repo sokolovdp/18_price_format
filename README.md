@@ -9,9 +9,8 @@ python.exe format_price.py 1234.56789
 python.exe format_price.py 12A.56
 12A.56 converted to ***.**
 ```
-
 # Unit tests
-To apply 9 unit tests to format_price(price: "str") function run test.py script
+To automatically check format_price(price: "str") function run test.py script, which applies 9 checks
 ```
 python.exe tests.py
 .........
