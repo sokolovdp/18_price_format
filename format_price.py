@@ -1,7 +1,7 @@
 import sys
 
 
-def format_price(price: "str") -> "str":
+def format_price(price: str) -> str:
     try:
         price_float = float(price.strip())
     except ValueError:
