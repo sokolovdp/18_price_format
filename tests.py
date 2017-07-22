@@ -36,7 +36,7 @@ class FormatPriceCase(unittest.TestCase):
         self.assertEqual(price, "12.00")
 
     def test_9(self):
-        price = format_price("   \n")
+        price = format_price("  . \n")
         self.assertEqual(price, None)
 
     def test_10(self):
