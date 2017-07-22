@@ -14,7 +14,7 @@ python.exe format_price.py 12A.56
 To automatically check format_price(price: "str") function run test.py script, which applies 9 checks
 ```
 python.exe tests.py
-.........
+..............
 ----------------------------------------------------------------------
 Ran 14 tests in 0.000s
 
