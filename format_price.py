@@ -4,8 +4,8 @@ import sys
 def format_price(price: str) -> str:
     try:
         price_float = float(price.strip())
-    except ValueError:
-        return "***.**"
+    except (AttributeError, ValueError):
+        return None
     else:
         return "{:,.2f}".format(price_float).replace(',', ' ')
 
