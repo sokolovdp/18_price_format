@@ -11,7 +11,7 @@ python.exe format_price.py 12A.56
 12A.56 converted to None
 ```
 # Unit tests
-To automatically check format_price(price: "str") function run test.py script, which applies 9 checks
+To automatically check format_price(price: "str") function run test.py script, which applies 14 checks
 ```
 python.exe tests.py
 ..............
